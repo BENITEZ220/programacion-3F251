@@ -12,7 +12,7 @@ int main (int argc, char const *argv[])
         Dimension::Full()
     );
     
-    auto document = hbox({
+    auto document = hbox({ 
         vbox(spinner(1,1))
     });
 
